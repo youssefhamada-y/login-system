@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <section class="vh-100  backgroundgrey d-flex justify-content-center align-items-center">
+        <div class="backgroundgrey group w-75 m-auto p-5 ">
+            <h1 class="txtblue text-center pt-3 titillium-web-extralight ">Smart Login System</h1>
+            <div class="input-group input-group-sm mb-3 mt-4">
+                <input id="loginemail" required placeholder="Enter your Email" type="email"
+                    class="form-control bg-transparent text-white" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <div class="input-group input-group-sm mb-3">
+                <input id="loginpassword" required placeholder="Enter your Password" type="password"
+                    class="form-control bg-transparent text-white" aria-label="Sizing example input"
+                    aria-describedby="inputGroup-sizing-sm">
+            </div>
+            <p class="text-center  d-none" id="alert">success</p>
+            <a
+                class="btn btn-outline-info w-100 my3 text-center mt-3" id="loginbutton">login</a>
+            <p class="text-white text-center mt-2">Don’t have an account? <span><a
+                        class="text-decoration-none text-white hover" href="./signupPage.html">Sign Up</a></span></p>
+
+        </div>
+    </section>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
